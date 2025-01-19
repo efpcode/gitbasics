@@ -1,0 +1,52 @@
+mkdir lab1
+cd lab1
+git init
+touch README.md
+ls
+git status
+git add .
+git status
+git commit --message "Initial commit"
+git status
+git switch --create feature1
+git branch --all
+git status
+git add .
+git commit --message "Changes moose to mouse and adds dog to end of file"
+git status
+git switch main
+git add .
+git commit --message "Changes moose to mahmut"
+git status
+git merge feature1
+git add .
+git status
+git commit --message "Merges feature1 against main"
+git status
+git tag -a extinct -m "Resolves merge conflict between main and feature1"
+git status
+git reset --hard HEAD~
+git status
+git branch feature2
+git branch --all
+git status
+git add .
+git status
+git commit --message "Capitalizes the first letter for all animals names"
+git switch feature2
+touch fix1.txt
+git status
+git add .
+git status
+git commit -m "Adds fix1.txt"
+touch fix2.txt
+git status
+git add .
+git status
+git commit -m "Adds fix2.txt"
+git status
+git switch main
+ls
+git cherry-pick 5d9dac6
+ls
+

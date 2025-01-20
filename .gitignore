@@ -6,7 +6,7 @@
 
 # Ignore Directories
 out/
-target/
+target/*
 
 ### macOS ###
 # General

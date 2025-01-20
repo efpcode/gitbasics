@@ -1,12 +1,12 @@
-# Exceptions htmls should be tracked regardless of sub directories
-!target/**/*.html
-
 # Ignore Jar files
 *.jar
 
 # Ignore Directories
 out/
 target/*
+
+# Exceptions htmls should be tracked regardless of sub directories
+!target/**/*.html
 
 ### macOS ###
 # General
